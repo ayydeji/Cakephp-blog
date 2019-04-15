@@ -1,0 +1,1293 @@
+2019-04-07 06:59:08 Error: [MissingViewException] View file "Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\index.ctp',
+)
+Request URL: /posts/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\index')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-07 07:11:23 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-08 06:26:36 Error: [Error] Class 'BlowfishPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Event\CakeEventManager.php(241): User->beforeSave(Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(23): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-04-08 06:35:36 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-08 06:40:06 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-08 06:41:09 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-08 07:15:45 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-08 07:21:10 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-08 07:21:52 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-08 07:22:00 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-08 07:22:06 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/lofin
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-08 07:23:28 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/lofin
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-08 07:25:03 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-08 08:06:38 Error: [Error] Call to a member function findByUsername() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-08 08:07:37 Error: [Error] Call to a member function findById() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-08 08:07:58 Error: [Error] Call to a member function findById() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-09 07:23:38 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-09 07:31:09 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-09 07:52:04 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Posts\index.ctp(42): View->__get('User')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-09 07:52:39 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Posts\index.ctp(42): View->__get('User')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-09 07:56:00 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Users\index.ctp(1): View->__get('Auth')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-09 08:01:29 Error: [Error] Call to a member function findById() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-09 08:01:33 Error: [Error] Call to a member function findById() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-09 08:01:40 Error: [Error] Call to a member function findById() on null
+Request URL: /posts/view/2
+Stack Trace:
+#0 [internal function]: PostsController->view('2')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-09 08:07:52 Error: [Error] Call to a member function find() on null
+Request URL: /posts/view/3
+Stack Trace:
+#0 [internal function]: PostsController->view('3')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-09 08:21:37 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Posts\index.ctp(41): View->__get('User')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-10 08:00:24 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-10 08:02:41 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-10 08:03:31 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-10 08:03:49 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-11 07:02:43 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /posts/index
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-11 07:21:18 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /posts/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-11 07:48:38 Error: [MissingViewException] View file "Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\view.ctp',
+)
+Request URL: /posts/view/2
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\view')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-11 07:52:31 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-12 07:00:23 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-12 07:00:28 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-12 07:00:43 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-12 07:13:19 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-12 07:27:44 Error: [ParseError] syntax error, unexpected 'validate' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Post')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(746): ClassRegistry::init('Post')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(376): Controller->loadModel('Post')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(414): Controller->__isset('Post')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(8): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-04-12 07:28:03 Error: [ParseError] syntax error, unexpected 'validate' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Post')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(746): ClassRegistry::init('Post')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(376): Controller->loadModel('Post')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(414): Controller->__isset('Post')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(15): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-04-12 07:28:06 Error: [ParseError] syntax error, unexpected 'validate' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Post')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(746): ClassRegistry::init('Post')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(376): Controller->loadModel('Post')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(414): Controller->__isset('Post')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(15): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-04-12 07:28:12 Error: [ParseError] syntax error, unexpected 'validate' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /posts/index
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Post')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(746): ClassRegistry::init('Post')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(376): Controller->loadModel('Post')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(414): Controller->__isset('Post')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(15): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-04-12 07:29:23 Error: [ParseError] syntax error, unexpected ''message'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /posts/index
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Post')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(746): ClassRegistry::init('Post')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(376): Controller->loadModel('Post')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(414): Controller->__isset('Post')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(15): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-04-12 07:39:01 Error: [NotFoundException] Invalid post
+Request URL: /posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-12 07:42:47 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /posts/edit/1
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-12 07:47:30 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-12 07:47:39 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-12 07:57:22 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-13 08:39:01 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-13 12:42:37 Error: [ParseError] syntax error, unexpected '}', expecting ';'
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-13 12:43:17 Error: Fatal Error (1): Class 'Appcontroller' not found in [C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php, line 4]
+2019-04-13 12:43:17 Error: [FatalErrorException] Class 'Appcontroller' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Appcontr...', 'C:\\MAMP\\htdocs\\...', 4)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Class 'Appcontr...', 'C:\\MAMP\\htdocs\\...', 4, Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-04-13 13:01:18 Error: Fatal Error (1): Class 'AppModal' not found in [C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Model\User.php, line 4]
+2019-04-13 13:01:18 Error: [FatalErrorException] Class 'AppModal' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppModal...', 'C:\\MAMP\\htdocs\\...', 4)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Class 'AppModal...', 'C:\\MAMP\\htdocs\\...', 4, Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-04-13 18:18:06 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /users/login
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-13 18:24:16 Error: [Error] Call to a member function error() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-13 18:25:10 Error: [Error] Call to a member function error() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-13 18:29:33 Error: [Error] Call to a member function error() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-13 18:37:05 Error: [Error] Call to a member function error() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-13 18:43:50 Error: [ParseError] syntax error, unexpected ''authorize'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(4): spl_autoload_call('AppController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(567): include('C:\\MAMP\\htdocs\\...')
+#3 [internal function]: App::load('UsersController')
+#4 [internal function]: spl_autoload_call('UsersController')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-04-13 18:43:50 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-04-13 18:43:50 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /users/login
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-04-13 18:52:18 Error: [ParseError] syntax error, unexpected ''authorize'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(4): spl_autoload_call('AppController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(567): include('C:\\MAMP\\htdocs\\...')
+#3 [internal function]: App::load('UsersController')
+#4 [internal function]: spl_autoload_call('UsersController')
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-04-13 18:52:18 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-04-13 18:52:18 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /users/login
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-04-14 08:22:10 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Event\CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-14 08:29:01 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:33:58 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:34:01 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:34:33 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Event\CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-14 08:39:25 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:40:43 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:41:52 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:41:59 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:42:11 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:42:28 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:43:37 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-14 08:43:51 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:46:00 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:47:10 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:47:43 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-14 08:48:22 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Component\AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Utility\ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Event\CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-14 08:49:24 Error: [ParseError] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:50:44 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Users\index.ctp(1): View->__get('Auth')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-14 08:52:03 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:53:25 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:54:32 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 08:55:54 Error: [TypeError] Argument 1 passed to Dispatcher::dispatch() must be an instance of CakeRequest, null given, called in C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php on line 104
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(NULL, Object(CakeResponse), Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(11): CakeObject->requestAction(16)
+#2 [internal function]: UsersController->index()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-04-14 09:05:35 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:05:39 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:06:34 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:07:20 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:09:37 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:11:02 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-14 09:11:13 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:11:46 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:15:44 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 09:16:23 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(11): CakeObject->requestAction(Array)
+#4 [internal function]: UsersController->index()
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-04-14 09:41:34 Error: [Error] Call to a member function read() on null
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 09:41:44 Error: [Error] Call to a member function destroy() on null
+Request URL: /users/logout
+Stack Trace:
+#0 [internal function]: UsersController->logout()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 09:41:48 Error: [Error] Call to a member function destroy() on null
+Request URL: /users/logout
+Stack Trace:
+#0 [internal function]: UsersController->logout()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 09:42:06 Error: [Error] Call to a member function write() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 09:56:41 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\View\Users\index.ctp(4): View->__get('Auth')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-04-14 09:58:56 Error: [Error] Call to undefined function printr()
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-04-14 09:59:56 Error: [Error] Call to undefined function printr()
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(971): include()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-04-14 10:07:26 Error: [MissingViewException] View file "Posts\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\display.ctp',
+)
+Request URL: /posts/display/user_id%5B0%5D:
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\display')
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 10:51:28 Error: [ParseError] syntax error, unexpected '=', expecting ')'
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 11:03:21 Error: [Error] Call to a member function read() on null
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 11:03:48 Error: [Error] Call to a member function read() on null
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-04-14 11:38:07 Error: [ArgumentCountError] Too few arguments to function PostsController::display(), 0 passed and exactly 1 expected
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: PostsController->display()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(12): CakeObject->requestAction(Array)
+#6 [internal function]: UsersController->index()
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-04-14 11:38:54 Error: [ArgumentCountError] Too few arguments to function PostsController::display(), 0 passed and exactly 1 expected
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: PostsController->display()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(12): CakeObject->requestAction(Array)
+#6 [internal function]: UsersController->index()
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-04-14 11:38:57 Error: [ArgumentCountError] Too few arguments to function PostsController::display(), 0 passed and exactly 1 expected
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: PostsController->display()
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(12): CakeObject->requestAction(Array)
+#6 [internal function]: UsersController->index()
+#7 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-04-14 11:50:14 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /users/index
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 11:53:29 Error: [ParseError] syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';'
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 11:54:59 Error: [ParseError] syntax error, unexpected '['
+Request URL: /users/index
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 12:14:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause'
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(1226): DboSource->fetchAll('SELECT COUNT(*)...', Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3040): DboSource->read(Object(Post), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3012): Model->_readDataSource('count', Array)
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(96): Model->find('count', Array)
+#7 [internal function]: PostsController->count()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(13): CakeObject->requestAction(Array, Array)
+#13 [internal function]: UsersController->index()
+#14 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#15 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#17 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2019-04-14 12:15:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause'
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(1226): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3040): DboSource->read(Object(Post), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3012): Model->_readDataSource('all', Array)
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(90): Model->find('all', Array)
+#7 [internal function]: PostsController->display()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(12): CakeObject->requestAction(Array, Array)
+#13 [internal function]: UsersController->index()
+#14 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#15 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#17 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2019-04-14 12:15:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause'
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Datasource\DboSource.php(1226): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3040): DboSource->read(Object(Post), Array)
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Model\Model.php(3012): Model->_readDataSource('all', Array)
+#6 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\PostsController.php(90): Model->find('all', Array)
+#7 [internal function]: PostsController->display()
+#8 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Core\CakeObject.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\Controller\UsersController.php(12): CakeObject->requestAction(Array, Array)
+#13 [internal function]: UsersController->index()
+#14 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#15 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#17 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2019-04-14 20:49:29 Error: [ParseError] syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';'
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-04-14 20:50:14 Error: [ParseError] syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';'
+Request URL: /users
+Stack Trace:
+#0 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(933): View->_evaluate('C:\\MAMP\\htdocs\\...', Array)
+#1 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\View\View.php(473): View->_render('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\MAMP\htdocs\myBlog\cakephp-2.10.16\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
