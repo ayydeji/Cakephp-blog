@@ -13,7 +13,7 @@ array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), array('
       <?php echo $post['Post']['created']?> - <?php echo $post['User']['username'] ?>
       <span style="float: right;">
       <? echo $this->Form->postLink($this->Html->tag('i', '', array('class' => 'fas fa-trash-alt')), array('action' => 'delete', $post['Post']['id']), array('confirm' => 'Are you sure?', 'escape'=>false)); ?>
-      <?= $this->Html->link($this->Html->tag('i', '', array('class' => 'far fa-edit')), array('controller' => 'posts', 'action' => 'edit', $post['Post']['id']), array('escape'=>false)) ?>
+      <?= $this->Html->link($this->Html->tag('i', '', array('class' => 'far fa-edit')), array('controller' => 'posts', 'action' => 'edit', $post['Post']['id']), array('escape'=>false)); ?>
       </span>
     </div>
   </div>
