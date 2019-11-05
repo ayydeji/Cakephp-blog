@@ -1,7 +1,7 @@
 # Cakephp-blog
-Please find in this repository the zip file containing all of my project, also you will find the cakephp app folder containing Models, Views and Controllers.
+This is a blog application developed by ayydeji. It was created using the Cake-php web framework.
 
-## schema.
+## Schema
 ```sql
 drop table posts;
 create table posts(
